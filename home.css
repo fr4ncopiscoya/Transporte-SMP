@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.titulo {
+  padding: 30px 10px 25px 10px;
+  font-family: "Verdana";
+  text-align: center;
+  color: white;
+  background-color: #2D61A6;
+  /* padding-bottom: 25px; */
+}
+
+.titulo img{
+  /* width: 20%; */
+  margin-bottom: 30px;
+  /* margin-top: 30px; */
+}
+
+.subtitulo {
+  font-size: 15px;
+}
+.subtitulo2 {
+  font-size: 10px;
+}
+
+#contenedor {
+  background-color: white;
+}
+
+#placa {
+  font-size: 24px;
+}
+
+
+.form-group input{
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.btn-consultar{
+  margin-top: 20px;
+}
+
+.tbody-content{
+  font-size: 12px;
+  /* width: 100%; */
+}
+
+.td-content{
+  width: 55%;
+}
+
+.table{
+  font-size: 15px;
+}
+
+
+
+@media (min-width: 750px) {
+  .titulo img{
+    width: 18%;
+  }
+}
+
+@media (max-width: 750px){
+  .titulo img{
+    width: 35%;
+  }
+
+  .form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #placa{
+    font-size: 15px;
+  }
+}
